@@ -1,0 +1,24 @@
+<canvas width="400" height="350"></canvas>
+
+<script>
+
+	var tela = document.querySelector("canvas");
+	var pincel = tela.getContext("2d");
+	
+	function desenhaQuadrado(x, y, cor){
+		pincel.fillStyle = cor;
+		pincel.fillRect(x, y, 50, 50);
+	}
+	
+	for(var x = 0; x < 400; x = x + 50){
+		var cor1 = [
+		"#a5cc9f", "#46c537", "#83cc83", "#8dc095", "#5fe05f", "#6fdc5d", "#a5cc9f", "#2d9445"
+		];
+		while(cor1 < 8){
+			desenhaQuadrado(x, 0, cor1);
+			cor++;
+		}
+		
+	}
+
+</script>

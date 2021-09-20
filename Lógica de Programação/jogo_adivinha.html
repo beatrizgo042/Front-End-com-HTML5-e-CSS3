@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha(){
+	document.write("<br>");
+}
+
+function mostra(frase){
+	document.write(frase);
+	pulaLinha();
+}
+
+	var numeroMaquina = Math.round(Math.random() * 10);
+	var numeroTentativas = 1;
+	
+	while(numeroTentativas <= 3){
+	
+		var numeroAdivinha = Math.round(prompt("Escolha um número entre 0 e 10."));
+	
+		if(numeroAdivinha == numeroMaquina){
+		alert("Parabéns, você acertou!");
+		break;
+		} else if (numeroAdivinha < numeroMaquina){
+		alert("Você errou, o número secreto é maior.");
+		} else if(numeroAdivinha > numeroMaquina){
+		alert("Você errou, o número secreto é menor.");
+		} 
+		numeroTentativas++
+}
+
+</script>
