@@ -1,0 +1,43 @@
+.containerPalestrantes {
+    background-color: #f17e50;
+}
+
+.palestrantesSobre {
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.palestrantes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.palestrante {
+    vertical-align: top;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    margin: 1.5%;
+    width: 18em;
+}
+
+.palestranteImg, .palestranteNome, .palestranteBio {
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+.palestranteImg {
+    border-radius: 100%;
+}
+
+.palestranteBio {
+    font-weight: bold;
+}
+
+.palestranteDescricao {
+    font-size: 15px;
+}

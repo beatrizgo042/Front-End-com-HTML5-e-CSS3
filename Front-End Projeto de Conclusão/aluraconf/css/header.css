@@ -1,0 +1,56 @@
+.cabecabecalhoPrincipal {
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.cabecabecalhoPrincipal-menu {
+    text-align: center;
+}
+
+.cabecabecalhoPrincipal-menu-itens {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecabecalhoPrincipal-menu-item {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.cabecabecalhoPrincipal-menu-item:hover {
+    background-color: #48A3A6;
+}
+
+.secaoTitulo, .secaoInscrever{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloPrincipal {
+    color: white;
+    font-size: 3em;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+}
+
+.subTituloPrincipal {
+    color: #73fa46;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+}
+
+@media(min-width: 650px){
+    .cabecabecalhoPrincipal {
+        font-size: 28px;
+    }
+}

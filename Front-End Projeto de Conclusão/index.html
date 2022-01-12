@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="./aluraconf/css/reset.css">
+    <link rel="stylesheet" href="./aluraconf/css/header.css">
+    <link rel="stylesheet" href="./aluraconf/css/base.css">
+    <link rel="stylesheet" href="./aluraconf/css/conteudoAluraConf.css">
+    <link rel="stylesheet" href="./aluraconf/css/palestrantes.css">
+    <link rel="stylesheet" href="./aluraconf/css/formulario.css">
+</head>
+
+<body>
+    <header class="cabecabecalhoPrincipal">
+        <nav class="cabecabecalhoPrincipal-menu">
+            <ul class="cabecabecalhoPrincipal-menu-itens">
+                <li><a class="cabecabecalhoPrincipal-menu-item" href="#painelSobre">Sobre</a></li>
+                <li><a class="cabecabecalhoPrincipal-menu-item" href="#painelPalestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div>
+            <section class="secaoTitulo">
+                <h1 class="tituloPrincipal">Aluraconf</h1>
+                <h2 class="subTituloPrincipal">30maio|rio</h2>
+            </section>
+            <section class="secaoInscrever">
+                <a href="#painelFormulario" class="botao">Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+    <section class="conteinerAluraConf container" id="painelSobre">
+        <h2 class="titulo">Muito conteúdo: do frontend ao backend</h2>
+        <h3 class="subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+        <div class="sobreDescricao">
+            <p class="conteudoAluraConf">Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a
+                um desenvolvedor mobile.</p>
+            <p class="conteudoAluraConf">É uma grande chanse de ficar por dentro dos assuntos de Android, iOS, Web
+                mobile, desenvolvimento híbrido, UX, além da parte de backend com Rest, Microservices, e BigData. O
+                desenvolvedor atualizado vai estar aqui.</p>
+        </div>
+    </section>
+    <section class="containerPalestrantes" id="painelPalestrantes">
+        <div class="palestrantesSobre">
+            <h2 class="titulo">PALESTRANTES</h2>
+            <h3 class="subtitulo">Aprenda com palestrantes que são referências na comunidade</h3>
+        </div>
+        <ul class="palestrantes">
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+            <li class="palestrante">
+                <figure class="palestranteInfo">
+                    <img class="palestranteImg" src="./aluraconf/img/palestrantes/placeholder.jpeg"
+                        alt="Imagem do palestrante Flávio Almeida">
+                    <figcaption class="palestranteNome">Frávio Almeida</figcaption>
+                    <p class="palestranteBio">Desenvolvedor e instrutor da Caelum</p>
+                </figure>
+                <p class="palestranteDescricao">To be or not to be MEAN</p>
+            </li>
+        </ul>
+    </section>
+    <section class="formulario container" id="painelFormulario">
+        <h2 class="titulo">Seus dados</h2>
+        <form class="dadosFormulario">
+            <label class="labelItem" for="email">Nome</label>
+            <input class="inputItem" type="text" id="nome">
+
+            <label class="labelItem" for="email">E-mail</label>
+            <input class="inputItem" type="email" id="email">
+
+            <button class="botao enviar">Realizar inscrição</button>
+        </form>
+    </section>
+    <script src="./aluraconf/js/jquery.js"></script>
+    <script src="./aluraconf/js/index.js"></script>
+</body>
+
+</html>

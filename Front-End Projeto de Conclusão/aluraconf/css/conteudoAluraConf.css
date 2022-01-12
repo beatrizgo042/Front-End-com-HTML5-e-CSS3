@@ -1,0 +1,19 @@
+.conteinerAluraConf{
+    display: block;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 0.5em;
+    font-size: 3.5em;
+}
+
+.subtitulo {
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.conteudoAluraConf {
+    font-size: 1.5em;
+    line-height: 2em;
+}

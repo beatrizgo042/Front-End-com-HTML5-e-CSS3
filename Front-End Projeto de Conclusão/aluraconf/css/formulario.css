@@ -1,0 +1,15 @@
+.dadosFormulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.formulario .titulo {
+    color: #f17e50;
+    text-align: center;
+}
+
+.enviar {
+    width: 18em;
+    align-self: center;
+}

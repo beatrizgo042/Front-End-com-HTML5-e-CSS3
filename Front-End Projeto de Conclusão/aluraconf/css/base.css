@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.labelItem {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.inputItem {
+    border-radius: 6px;
+    box-shadow: 2px 2px 7px #52adaf;
+    font-size: 1.2em;
+    height: 2em;
+    margin: 1em 0;
+}
+
+.botao {
+    background-color: #48A3A6;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem;
+    padding: 1.5rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
